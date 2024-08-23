@@ -1,0 +1,260 @@
+.row {
+    display: flex;
+    /* background-color:darkcyan; */
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: space-evenly;
+}
+
+div {
+    text-align: center;
+}
+
+b:hover {
+    color: darkblue;
+}
+
+header {
+    animation: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.col:hover {
+    background-color: royalblue;
+    transition: 3s;
+    transform: scale(1, 0.98);
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 83%;
+    height: 300px;
+    align-items: center;
+    padding: 10px;
+}
+
+img.Image1 {
+    width: 200px;
+    height: 75px;
+    border-radius: 0%;
+}
+
+img.Image1:hover {
+    background-color: tomato;
+    transition: 2s;
+}
+
+img.Image1 {
+    width: 200px;
+    height: 75px;
+    border-radius: 0%;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.col:hover {
+    background-color: royalblue;
+    transition: 3s;
+    transform: scale(1, 0.98);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 gray;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 gray;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+
+
+.title {
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+button {
+    color: black;
+    width: 50%;
+    height: 40px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(49, 47, 47);
+    color: white;
+}
+
+header {
+    background-color: rgb(103, 158, 234)
+}
+
+html {
+    background-color: rgb(80, 136, 176);
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: tomato;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+main {
+    background-color: rgb(41, 41, 97);
+}
+
+footer {
+    text-align: center;
+}
+
+footer:hover {
+    color: white;
+}
+
+
+
+.col {
+    text-align: center;
+}
+
+
+
+img.Image1:hover {
+    background-color: tomato;
+    transition: 2s;
+}
+
+img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+}
+
+.col:hover {
+    background-color: royalblue;
+    transition: 3s;
+    transform: scale(1, 0.98);
+}
+
+h5 {
+    color: aliceblue;
+    text-align: center;
+}
+
+b:hover {
+    color: darkblue;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(img/asias-quality-entreprenuarship-award-karisma-min.webp);
+    }
+
+    50% {
+        background-image: url(img/business-excellence-award-msatish-reddy.webp);
+    }
+
+    100% {
+        background-image: url(img/iconic-business-summit-awards-jaya-prada-min.webp);
+    }
+}
+
+header {
+    animation: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width:530px) {
+    .row {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width:540px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media (max-width:490px) {
+    li {
+        font-size: 40px;
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(img/asias-quality-entreprenuarship-award-karisma-min.webp);
+    }
+
+    50% {
+        background-image: url(img/business-excellence-award-msatish-reddy.webp);
+    }
+
+    100% {
+        background-image: url(img/iconic-business-summit-awards-jaya-prada-min.webp);
+    }
+}
+
+img.asias-quality-entreprenuarship-award-karisma-min{
+    
+}

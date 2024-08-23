@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        background-color: rgb(103, 158, 234)
+    }
+
+    html {
+        background-color: rgb(80, 136, 176);
+    }
+
+    li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    li:hover {
+        background-color: tomato;
+    }
+
+    a:hover {
+        color: darkblue;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .row {
+        display: flex;
+        /* background-color:darkcyan; */
+        justify-content: space-evenly;
+        gap: 10px;
+        align-items: space-evenly;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+
+    .col:hover {
+        background-color: aqua;
+        transition: 2s;
+        margin-top: -9px;
+    }
+
+    h1 {
+        color: red;
+        text-shadow: 1px 2px black;
+        text-align: left;
+    }
+
+    h1:hover {
+        color: aquamarine;
+    }
+
+    h3 {
+        color: bisque;
+        text-shadow: 1px 2px black;
+    }
+
+    h3:hover {
+        color: brown;
+    }
+
+    main {
+        background-color: rgb(118, 101, 177);
+    }
+
+    h4 {
+        text-decoration: underline;
+        color: beige;
+        text-shadow: 1px 2px black;
+    }
+
+    h4:hover {
+        color: brown;
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    p:hover {
+        color: aliceblue;
+    }
+
+    img:hover {
+        background-color: tomato;
+        transition: 1s;
+    }
+
+    @media (min-width:530px) {
+        .row {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+        }
+    }
+
+
+    @media (max-width:540px) {
+        body {
+            background-color: orange;
+        }
+    }
+
+    @media (max-width:490px) {
+        li {
+            font-size: 40px;
+        }
+    }
+
+    b:hover {
+        color: white;
+    }
+
+    div {
+        padding: 20px;
+        text-align: left;
+    }
+
+    b:hover {
+        color: darkblue;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    @keyframes slide {
+        0% {
+            background-image: url(img/asias-quality-entreprenuarship-award-karisma-min.webp);
+        }
+
+        50% {
+            background-image: url(img/business-excellence-award-msatish-reddy.webp);
+        }
+
+        100% {
+            background-image: url(img/iconic-business-summit-awards-jaya-prada-min.webp);
+        }
+    }
+
+    header {
+        animation: slide;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div {
+        width: fit-content;
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <img src="img/Image1.png" width="200" alt=""> <br>
+            <ul>
+                <li><a href="project.html"><B>Home</B></a></li>
+                <li><a href="About.html"><B>About Us</B></a></li>
+                <li><a href="services.Html"><B>Services</B></a></li>
+                <li><a href="Contact.html"><B>Contact</B></a></li>
+                <li><a href="team.html"><B>Team</B></a></li>
+                <li><a href="Gallery.html"><B>Gallery</B></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <img src="img2/national-icon-award-final-min.jpg" width="100%" alt="">
+
+        <div class="row">
+            <div class="col">
+                <h1><u>Programs </u></h1> <br>
+                <img src="img2/web-developer_127934-40290.webp" width="300" height="260" alt="">
+                <h3>Internship <br>
+                    Digital Marketing Internship in Chandigarh <br>
+                    Web Development Course<br>
+                    Full Stack Development Course<br>
+                    Free Online Internship<br>
+                    Internship for CSE students<br>
+                    Online Internship for CSE students<br>
+                    Summer Internship for CSE students<br>
+                    Online Internship For Engineering Students<br>
+                    Summer Training<br>
+                    Online Summer Training<br>
+                    Zero Pay Program<br>
+                </h3>
+            </div>
+
+            <div class="col">
+                <h1><u>Job Oriented Courses</u></h1> <br>
+                <img src="img2/seo-diagram.webp" width="300" height="260" alt="">
+
+                <h3>Professional Photography Course<br>
+                    Video Editing Course<br>
+                    Film Making Course<br>
+                    Job Oriented Courses after 12th<br>
+                    Job Oriented Courses after 12th Science<br>
+                    Job Oriented Courses after 12th Commerce<br>
+                    Job Oriented Courses after Graduation<br>
+                    Short Term Job Oriented Courses after 12th<br>
+                    Job Oriented Courses after 10th<br>
+                    Govt. Job Oriented Courses after 10th<br>
+                </h3>
+            </div>
+
+            <div class="col">
+                <h1><u>Diploma Courses</u></h1> <br>
+                <img src="img2/web-development-concept-with-programmer_906385-20948.webp" width="300" height="260"
+                    alt="">
+                <h3>
+                    Diploma in Animation & VFX <br>
+                    Diploma in Animation & Multimedia<br>
+                    Web Designing & Development<br>
+                    Web Designing & Digital Marketing<br>
+                    Web Design, Development & Internet Marketing<br>
+                    Six Month /6 Weeks Industrial Training<br>
+                </h3>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+<div>
+
+    <h1><u>Comprehensive Digital Marketing and Development Services </u></h1>
+    <br>
+    <p><b>In today's fast-paced digital world, businesses need to stay ahead by leveraging the latest te and
+            marketing strategies. Our agency offers a wide range of services designed to help your business
+            th
+            online.
+        </b></p>
+    <br>
+
+</div>
+
+<div>
+    <h4>1. Digital Marketing:<br> <br></h4>
+    <p>Our digital marketing services are tailored to enhance your brand's online presence and drive targ
+        traffic
+        to your website. We offer comprehensive strategies, including social media marketing, content crea email
+        marketing, and search engine optimization (SEO), ensuring your business gets noticed by the right.</p>
+    <br>
+    <br>
+    <h4>2.Web Designing: <br><br></h4>
+    <p>A well-designed website is crucial for creating a strong first impression. Our web designing servi focus
+        on
+        creating visually appealing, user-friendly, and responsive websites that reflect your brand’s iden and
+        provide an optimal user experience across all devices. </p><br>
+    <br>
+    <h4>3. Web Development: <br><br></h4>
+    <p>Beyond aesthetics, functionality is key. Our web development team specializes in building robust, able,
+        and
+        secure websites. Whether you need an e-commerce platform, a corporate website, or a custom web
+        application,
+        we’ve got you covered.</p> <br>
+    <br>
+    <h4>4. Training and Internships: <br> <br></h4>
+    <p> We believe in empowering the next generation of digital marketers and developers. Our training pros and
+        internships offer hands-on experience in various domains, including web development, mobile app
+        department,
+        and
+        digital marketing, providing valuable skills for aspiring professionals.</p> <br>
+    <br>
+    <h4> 5.Management Internship: <br><br></h4>
+    <p>Our management internship program is designed to groom future leaders in the digital marketing indy.
+        Interns
+        gain exposure to real-world business scenarios, learning how to manage projects, lead teams, and
+        strategic
+        decisions that drive business success.</p> <br>
+    <br>
+    <h4>6. Mobile App Development: <br><br></h4>
+    <p> With the surge in mobile usage, having a mobile app for your business is more important than ever.
+        mobile
+        app development team creates intuitive and feature-rich apps for both Android and iOS platforms, eing
+        seamless user experiences that keep your customers engaged.</p> <br>
+    <br>
+    <h4>7. Chatbot Development: <br><br></h4>
+    <p> Automate your customer service with our chatbot development services. We design intelligent chatbo hat
+        can
+        handle inquiries, provide information, and assist customers 24/7, freeing up your resources for moomplex
+        tasks.</p> <br>
+    <br>
+    <h4> 8.Bulk SMS and Voice SMS: <br><br></h4>
+    <p>Reach your customers instantly with our bulk SMS and voice SMS services. Whether you’re promoting w
+        product,
+        sending reminders, or conducting surveys, our messaging solutions ensure your message gets deliver
+        romptly
+        and effectively. </p><br>
+    <br>
+    <h4>9.Pay Per Click(PPC) <br> <br></h4>
+    <p>Pay-per-click or PPC or cost per click is a Search Engine Optimization strategy for getting instant &
+        genuine
+        traffic to your website. It can also be defined as the amount spent to get an advertisement clicked.
+        Thinknext is one of the leading PPC Company in Chandigarh.It’s a paid search
+        that offers immediate results in the form of increased visitors to your website and it is the best
+        approach
+        for the startup companies who want to make an instant online presence.</p> <br>
+</div>
+
+<img src="img/Screenshot 2024-08-02 104132.png" width="100%" alt="">
+</main>
+
+<footer>
+    <b>@ThinkNEXT Private Limited.</b>
+</footer>
+
+</body>
+
+</html>
